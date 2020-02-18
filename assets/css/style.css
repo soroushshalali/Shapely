@@ -1,0 +1,389 @@
+body{
+    margin: 0;
+    font-family: Raleway;
+}
+
+header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.1px solid rgb(230, 230, 230);
+    border-bottom:0.1px solid rgb(230, 230, 230); 
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+
+
+header > nav > ul > li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: rgb(76, 76, 76);
+    font-size: 13px;
+}
+
+.btnsearch{
+    margin-left: 60px;
+    background-color: none;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 161);
+    background-color: white;
+    font-size: 15px;
+}
+
+header > div > a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+header > div{
+    padding-left: 15%;
+}
+
+.sec1{
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+    background-size: cover;
+    /* width: 100%;
+    height: 100vh; */
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px rgb(126, 126, 126);
+    height: 100vh;
+}
+
+.sec1 > h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sec1 > p{
+    font-size: 14px;
+    color: white;
+    font-family: Raleway;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.readmore{
+    font-size:12px ;
+    font-weight: 700;
+    padding: 18px 53px;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgb(116, 92, 249);
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 500;
+    background-color: rgb(116, 92, 249);
+}
+
+.readmore:hover{
+    opacity: 0.6;
+    transition-duration: 0.5s;
+}
+
+.downnow{
+    font-size:12px ;
+    font-weight: 500;
+    padding: 18px 37px;
+    display: inline-block;
+    text-decoration: none;
+    border: solid 2px white;
+    color: white;
+    letter-spacing: 3px;
+    
+}
+
+.downnow:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(76, 76, 76);
+    transition-duration: 0.5s;
+}
+
+.sec2{
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+    font-family: Raleway;
+    
+
+}
+
+.sec2 > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sec2 > div > img{
+    width: 600px;
+    height: 400px;
+    margin-left: 30%;
+    
+}
+
+.sec2 > article {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 18vh;
+    padding-left: 300px;
+    padding-right: 150px;
+}
+
+.sec2 > article > h1{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 0;
+
+}
+
+.sec2 > article > p{
+    color: rgb(145, 145, 145);
+    line-height: 30px;
+    font-size: 13px;
+    text-align: left;
+
+}
+
+.sec2 > article > a{
+    background-color: rgb(104, 81, 230);
+    width: 200px;
+    height: 50px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+   
+
+}
+
+.sec2 > article > a:hover{
+    background-color: #4c39b8;
+    transition-duration: 0.5s;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 90vh;
+    justify-content: space-between;
+    font-family: Raleway;
+    background-color: rgb(245, 245, 245);
+    
+
+}
+
+.sec3 > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sec3 > div > img{
+    width: 600px;
+    height: 400px;
+    margin-right: 30%;
+    
+}
+
+.sec3 > article {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 18vh;
+    padding-right: 300px;
+    padding-left: 150px;
+}
+
+.sec3 > article > h1{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 0;
+
+}
+
+.sec3 > article > p{
+    color: rgb(145, 145, 145);
+    line-height: 30px;
+    font-size: 13px;
+    text-align: left;
+
+}
+
+.sec3 > article > a{
+    background-color: rgb(104, 81, 230);
+    width: 200px;
+    height: 50px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+   
+
+}
+
+.sec3 > article > a:hover{
+    background-color: #4c39b8;
+    transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+.sec4{
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 100%;
+    height: 100vh; */
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px rgb(126, 126, 126);
+    height: 50vh;
+}
+
+.sec4 > h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sec4 > p{
+    font-size: 14px;
+    color: white;
+    font-family: Raleway;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.readmore{
+    font-size:12px ;
+    font-weight: 700;
+    padding: 18px 53px;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgb(116, 92, 249);
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 500;
+    background-color: rgb(116, 92, 249);
+}
+
+.readmore:hover{
+    opacity: 0.6;
+    transition-duration: 0.5s;
+}
+
+
+
+.sec5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.sec5 > h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Raleway;
+}
+
+.sec5 > p{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: Raleway;
+    text-align: center;
+    margin-bottom: 5vh;
+
+}
+
+.sec5 > a{
+    text-decoration: none;
+    display: inline-block;
+    font-size:12px ;
+    font-weight: 700;
+    padding: 18px 30px;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgb(116, 92, 249);
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 500;
+    background-color: rgb(116, 92, 249);
+    margin-bottom: 5vh;
+}
+
+.sec5 > a:hover{
+    background-color: rgb(93, 69, 233);
+    border: 2px solid rgb(93, 69, 233);
+}
+
+
+
+
+.blacksec{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7vh;
+    padding-bottom: 4vh;
+}
+
+.blacksec > h1{
+    font-size: 30px;
+    font-weight: 300;
+
+
+}
+
+.blacksec > p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
